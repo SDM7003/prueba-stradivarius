@@ -1,14 +1,14 @@
-#Configurar y Ejecutar la app
+#Configurar y Ejecutar la app.
 Para ejecutar la aplicación debéis poner los comandos:
 1. `npm install` - para instalar los modules de node
 2. `npm start` - para arrancar la app. Se muestra en el puerto 3000 por defecto.
 
-#Ejecutar los test
+#Ejecutar los test.
 Para ejecutar los test de la app pone el comando `npm test`
 
 ---
 
-#Los cambios en la app e implementaciones
+#Los cambios en la app e implementaciones.
 1. Para desaparecer el menu en el fichero `MainNavigation.js` puse el código jQuiery que analise el estado del scroll. 
 Si bajamos el scroll - desaparece el menu, y si subimos - el menu vuelve a posición del scroll.
 Se, que no es una buena manera poner el jQuery en las aplicaciones ASP, pero hacer esta función en jQuery es forma más rápida 
